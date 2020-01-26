@@ -1,4 +1,5 @@
 <launch>
+<group ns="tb3">
   <arg name="multi_robot_name" default=""/>
   <arg name="set_lidar_frame_id" default="base_scan"/>
 
@@ -10,4 +11,5 @@
   </include>
 
   <node pkg="turtlebot3_bringup" type="turtlebot3_diagnostics" name="turtlebot3_diagnostics" output="screen"/>
+</group>
 </launch>
