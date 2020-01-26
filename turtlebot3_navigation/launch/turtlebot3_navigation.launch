@@ -9,6 +9,7 @@
 
     <!-- Turtlebot3 -->
     <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch">
+      <arg name="no_namespace" value="True"/>
       <arg name="model" value="$(arg model)" />
     </include>
 
